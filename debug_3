@@ -1,0 +1,118 @@
+https://medium.com/@reach2arunprakash/guvi-zen-class-find-the-culprits-and-nail-them-9ee6c67c44fb
+
+1)
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( “I’m JavaScript!");
+ </script>
+</body>
+</html>
+
+2)Find the culprit and invoke the alert
+
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin = fname+" "+lname;
+alert( admin ); // "Guvi geek"
+
+3)Fix the below to alert Guvi geek
+
+let fname = "Guvi";
+lname = "geek"
+let name = fname+" " + lname;
+alert( `hello ${name}` )
+
+4)
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a + +b);
+
+5)
+let a = prompt("First number?");
+let b = prompt("Second number?");
+alert(+a + +b);
+
+6)
+let a =alert("Enter a number?");
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+7)
+let value = +prompt('How many runs you scored in this ball');
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+8)
+let login = 'Employee';
+if(login === "Employee" || login ==="Director"){
+  console.log("Welcome");
+}else{
+  console.log("No login")
+}
+
+9)
+let i = 3;
+for(i=i ; i>0 ; i--){
+  console.log(i);
+}
+
+
+10) Change the code to print 1 to 10 in 4 lines
+
+let num = 1;
+for(i=num ; i<=10 ; i++){
+  console.log(i)
+}
+
+11) Change the code to print even numbers
+
+//You are allowed to modify only one character 
+for (let num = 2; num <= 20; num+= 2) {
+  console.log(num)
+}
+
+12)
+
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
